@@ -1,0 +1,18 @@
+#mainBlock{
+position: absolute;
+margin-top: 22%;
+margin-bottom: 41%;
+left: 22%;
+
+}
+
+#bigTitle{
+font-size: 125px;
+color: bisque;
+}
+
+#yearName{
+font-size: 70px;
+color: darkgray;
+}
+
