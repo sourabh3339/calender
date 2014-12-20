@@ -1,18 +1,34 @@
-#mainBlock{
-position: absolute;
-margin-top: 22%;
-margin-bottom: 41%;
-left: 22%;
-
+#mainBlock {
+    position: absolute;
+    margin-top: 22%;
+    margin-bottom: 41%;
+    left: 22%;
 }
-
-#bigTitle{
-font-size: 125px;
-color: bisque;
+#bigTitle {
+    font-size: 125px;
+    color: bisque;
 }
-
-#yearName{
-font-size: 70px;
-color: darkgray;
+#yearName {
+    font-size: 70px;
+    color: darkgray;
 }
-
+.month-block {
+    display: inline-block;
+    background-color: rgb(52, 53, 60);
+    width: 160px;
+    height: 150px;
+   }
+.month-name {
+    position: relative;
+    top: 21%;
+    font-size: 63px;
+    left: 10%;
+    color: dimgrey;
+}
+.empty-line{
+	height: 4px;
+}
+.month-block:hover{
+	background-color: inherit;
+	cursor:pointer;
+}
