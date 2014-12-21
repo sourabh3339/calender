@@ -14,13 +14,13 @@ function getMonthSize(year, month) {
     return [days, firstDay];
 }
 
-function buildCalender(currentMonth,year) {
+function buildCalender(currentMonth) {
     console.log("current month---------" + currentMonth);
     var months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
     var daysList = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
     var monthIndex = months.indexOf(currentMonth);
     console.log("month index--------" + monthIndex + "  " + currentMonth);
-    var info = getMonthSize(year, monthIndex);
+    var info = getMonthSize(2014, monthIndex);
     console.log(info);
     var i = 0;
     var body = document.getElementsByTagName('body')[0];
