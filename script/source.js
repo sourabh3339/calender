@@ -20,7 +20,7 @@ function buildCalender(currentMonth) {
     var daysList = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
     var monthIndex = months.indexOf(currentMonth);
     console.log("month index--------" + monthIndex + "  " + currentMonth);
-    var info = getMonthSize(2014, monthIndex);
+    var info = getMonthSize(2015, monthIndex);
     console.log(info);
     var i = 0;
     var body = document.getElementsByTagName('body')[0];
