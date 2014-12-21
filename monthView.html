@@ -1,0 +1,68 @@
+<html>
+
+<head>
+    <title>month</title>
+    <link rel="stylesheet" type="text/css" href="css/general.css">
+    <script src="script/source.js" charset="utf-8"></script>
+    <script type="text/javascript">
+    window.onload = function() {
+        var currentMonth = sessionStorage.getItem('counter');
+        console.log("month name--" + sessionStorage.getItem('counter'));
+
+        switch (currentMonth) {
+            case 'Jan':
+                document.getElementById('month').innerHTML = "January";
+                break;
+            case 'Feb':
+                document.getElementById('month').innerHTML = "Februry";
+                break;
+            case 'Mar':
+                document.getElementById('month').innerHTML = "March";
+                break;
+            case 'Apr':
+                document.getElementById('month').innerHTML = "April";
+                break;
+            case 'May':
+                document.getElementById('month').innerHTML = "May";
+                break;
+            case 'Jun':
+                document.getElementById('month').innerHTML = "June";
+                break;
+            case 'Jul':
+                document.getElementById('month').innerHTML = "July";
+                break;
+            case 'Aug':
+                document.getElementById('month').innerHTML = "August";
+                break;
+            case 'Sep':
+                document.getElementById('month').innerHTML = "September";
+                break;
+            case 'Oct':
+                document.getElementById('month').innerHTML = "October";
+                break;
+            case 'Nov':
+                document.getElementById('month').innerHTML = "November";
+                break;
+            case 'Dec':
+                document.getElementById('month').innerHTML = "December";
+
+
+        }
+
+        buildCalender(currentMonth);
+
+    };
+    </script>
+
+</head>
+
+<body>
+    <div id="month"></div>
+    <div id="aDate">
+        <div class="day"></div>
+        </div>
+
+</body>
+
+
+</html>

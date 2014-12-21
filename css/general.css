@@ -17,7 +17,7 @@
     background-color: rgb(52, 53, 60);
     width: 160px;
     height: 150px;
-   }
+}
 .month-name {
     position: relative;
     top: 21%;
@@ -25,10 +25,38 @@
     left: 10%;
     color: dimgrey;
 }
-.empty-line{
-	height: 4px;
+.empty-line {
+    height: 4px;
 }
-.month-block:hover{
-	background-color: inherit;
-	cursor:pointer;
+.month-block:hover {
+    background-color: inherit;
+    cursor: pointer;
+}
+#month {
+    position: absolute;
+    top: 20%;
+    left: 35%;
+    font-size: -webkit-xxx-large;
+    color: rgb(43, 48, 134);
+    font-family: serif;
+}
+.aDate {
+    float: left;
+    background-color: antiquewhite;
+    height: 80px;
+    width: 80px;
+}
+#day {
+    position: relative;
+    background-color: azure;
+    width: 80px;
+    height: 30px;
+}
+
+.date-block {
+    display: inline-block;
+    background-color: inherit;
+    width: 160px;
+    height: 150px;
+    font-size: large;
 }
