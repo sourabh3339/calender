@@ -60,3 +60,9 @@
     height: 150px;
     font-size: large;
 }
+
+.date-block:hover{
+    background-color: inherit;
+    cursor: pointer;
+color: blue;
+};
