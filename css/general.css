@@ -29,7 +29,8 @@
     left: 22%;
 }
 #bigTitle {
-    font-size: 125px;
+    float: left;
+   font-size: large;
     color: bisque;
 }
 #yearName {
