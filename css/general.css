@@ -1,4 +1,11 @@
 #body {
+    position: fixed;
+    top: 0;
+    left: 0;
+    /* Preserve aspet ratio */
+    
+    min-width: 100%;
+    min-height: 100%;
     -webkit-animation: myfirst 2s;
     /* Chrome, Safari, Opera */
 }
@@ -8,12 +15,11 @@
     0% {
         background: grey;
     }
-    
     50% {
-        background:bisque;
+        background: bisque;
     }
     100% {
-        background:dimgrey ;
+        background: dimgrey;
     }
 }
 #mainBlock {

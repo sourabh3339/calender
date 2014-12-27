@@ -45,7 +45,7 @@ function buildCalender(currentMonth) {
         body.appendChild(squareBlock);
 
     }
-    selectWallpaper(/*currentMonth*/'Jan', body);
+    selectWallpaper( /*currentMonth*/ 'Jan', body);
 
 }
 
@@ -57,9 +57,14 @@ function selectWallpaper(month, body) {
         case 'Jan':
             body.style.backgroundImage = "url(./resources/images/jany.jpg)";
             body.style.backgroundRepeat = "no-repeat";
-            body.style.backgroundSize= "cover";
+            body.style.backgroundSize = "cover";
+            body.style.position = "fixed";
+            body.style.top = "0";
+            body.style.left = "0";
+            body.style.minWwidth = "100 %";
+            body.style.minHeight = "100 %";
             break;
-        /*case 'Feb':
+            /*case 'Feb':
             body.style.backgroundImage = "url(./resources/images/feb.jpg)";
             body.style.backgroundRepeat = "no-repeat";
             break;
