@@ -55,8 +55,9 @@ function selectWallpaper(month, body) {
     switch (month) {
 
         case 'Jan':
-            body.style.backgroundImage = "url(./resources/images/jan.jpg)";
+            body.style.backgroundImage = "url(./resources/images/jany.jpg)";
             body.style.backgroundRepeat = "no-repeat";
+            body.style.backgroundSize= "cover";
             break;
         /*case 'Feb':
             body.style.backgroundImage = "url(./resources/images/feb.jpg)";
