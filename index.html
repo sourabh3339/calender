@@ -7,7 +7,7 @@
 
 </head>
 
-<body id="body" style="background-image:url(resources/images/panda.jpg); background-repeat:no-repeat">
+<body id="body">
     <a href="mainView.html">
         <div id="mainBlock">
             <div id="bigTitle">Calender</div>
@@ -15,5 +15,15 @@
         </div>
     </a>
 </body>
-
+<script>
+    var bodi=document.getElementById('body');
+    bodi.style.backgroundImage = "url(./resources/images/panda.jpg)";
+    bodi.style.backgroundRepeat = "no-repeat";
+    bodi.style.backgroundSize = "cover";
+    bodi.style.position = "fixed";
+    bodi.style.top = "0";
+    bodi.style.left = "0";
+    bodi.style.minWwidth = "100 %";
+    bodi.style.minHeight = "100 %";
+    </script>
 </html>

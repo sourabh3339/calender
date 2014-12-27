@@ -4,9 +4,9 @@
     <title>calender</title>
     <link rel="stylesheet" type="text/css" href="css/general.css">
     <script src="script/source.js" charset="utf-8"></script>
-</head>
+    </head>
 
-<body style="background-image:url(resources/images/Oogway-peach-tree.jpg); background-repeat:no-repeat">
+<body id="bod">
     <div class="month-block" onclick="showMonth(this)">
         <div class="month-name">Jan</div>
     </div>
@@ -36,7 +36,7 @@
         <div class="month-name">Aug</div>
     </div>
 
-<div class="empty-line"></div>
+    <div class="empty-line"></div>
     <div class="month-block" onclick="showMonth(this)">
         <div class="month-name">Sep</div>
     </div>
@@ -52,5 +52,15 @@
         <div class="month-name">Dec</div>
     </div>
 </body>
-
+<script>
+    var bodi=document.getElementById('bod');
+    bodi.style.backgroundImage = "url(./resources/images/Oogway-peach-tree.jpg)";
+    bodi.style.backgroundRepeat = "no-repeat";
+    bodi.style.backgroundSize = "cover";
+    bodi.style.position = "fixed";
+    bodi.style.top = "0";
+    bodi.style.left = "0";
+    bodi.style.minWwidth = "100 %";
+    bodi.style.minHeight = "100 %";
+    </script>
 </html>
